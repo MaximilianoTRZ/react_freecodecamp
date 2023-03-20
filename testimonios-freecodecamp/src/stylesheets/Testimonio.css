@@ -6,12 +6,18 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 15%);
+  border-radius: 5px;
 }
-
+.contenedor-testimonio:hover{
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 60%);
+  transition: 0.5s;
+}
 .imagen-testimonio {
   height: 100%;
   width: auto;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .contenedor-texto-testimonio{
