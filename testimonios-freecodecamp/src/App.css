@@ -9,6 +9,21 @@ body {
   background-color: #8a9eb3;
 }
 
+.codeink{
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-size: 100px;
+  text-shadow: 0px 0px 10px #FFF,
+  /* Parte de luz */
+  4px 2px 12px #DCB500,
+  -4px 2px 12px #DCB500,
+  /* Subida del fuego */
+  0px -6px 14px #FF7A00,
+  0px -12px 14px #FF6300,
+  0px -20px 14px #FF4400,
+  /* Azuleo de la llama */
+  0px -30px 14px #0A7BFF
+}
+
 h1 {
   max-width: 940px;
   font-size: 2.5em;
