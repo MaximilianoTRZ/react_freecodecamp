@@ -2,6 +2,8 @@
 ### Cada proyecto realizado tiene algunas características incluidas por mí.
 #### Cuatro proyectos de aplicaciones web interactivas con React. 
 
+##### Para ejecutarlos se debe realizar `npm install` y luego `npm start` en el directorio del proyecto.
+
 ⭐️ Contenido ⭐️
 
 🔹 Proyecto 1: Clon de Testimonios de freeCodeCamp
