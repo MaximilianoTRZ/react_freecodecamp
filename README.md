@@ -1,6 +1,6 @@
-# React - Curso de React Con Proyectos
-### Fundamentos de React en este curso desde cero. 
-#### Cuatro proyectos y fundamentos para crear aplicaciones web interactivas con React. 
+# React - Proyectos realizados en el curso de FreeCodeCamp
+### Cada proyecto realizado tiene algunas características incluidas por mí.
+#### Cuatro proyectos de aplicaciones web interactivas con React. 
 
 ⭐️ Contenido ⭐️
 
@@ -12,4 +12,4 @@
 
 🔹 Proyecto 4: Aplicación de Tareas
 
-🔹 Componentes de Clase
+🔹 Revisión de Componentes de Clase (Para mantenimiento de código Legacy)
