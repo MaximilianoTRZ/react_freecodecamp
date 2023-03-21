@@ -2,7 +2,7 @@
 ### Cada proyecto realizado tiene algunas características incluidas por mí.
 #### Cuatro proyectos de aplicaciones web interactivas con React. 
 
-##### Para ejecutarlos se debe realizar `npm install` y luego `npm start` en el directorio del proyecto.
+##### Para ejecutarlos se debe realizar `npm install` y luego `npm start` en el directorio de cada proyecto.
 
 ⭐️ Contenido ⭐️
 
