@@ -1,8 +1,28 @@
 import './App.css';
 import maximilianotrzLogo from './img/maximilianotrz-logo.png';
 import Boton from './components/Boton';
+import Pantalla from './components/Pantalla';
+import BotonClear from './components/BotonClear';
+import { useState } from 'react';
+import { evaluate } from 'mathjs'
 
 function App() {
+
+  const [input, setInput] = useState('')
+
+  const actualizarInput = val => {
+    setInput(input + val)
+  }
+
+  const reiniciarInput = () => (
+    setInput('')
+  )
+
+  const calcularResultado = () => (
+    setInput(evaluate(input))
+  )
+  
+
   return (
     <div className="App">
       <div className="freecodecamp-logo-contenedor">
@@ -12,35 +32,34 @@ function App() {
         alt="Logo de FreeCodeCamp" />
       </div>
       <div className="contenedor-calculadora">
+        <Pantalla 
+        input={input} />
         <div className="fila">
-          <Boton>Pantalla</Boton>
+          <Boton manejarClic={actualizarInput}>1</Boton>
+          <Boton manejarClic={actualizarInput}>2</Boton>
+          <Boton manejarClic={actualizarInput}>3</Boton>
+          <Boton manejarClic={actualizarInput}>+</Boton>
         </div>
         <div className="fila">
-          <Boton>1</Boton>
-          <Boton>2</Boton>
-          <Boton>3</Boton>
-          <Boton>+</Boton>
+          <Boton manejarClic={actualizarInput}>4</Boton>
+          <Boton manejarClic={actualizarInput}>5</Boton>
+          <Boton manejarClic={actualizarInput}>6</Boton>
+          <Boton manejarClic={actualizarInput}>-</Boton>
         </div>
         <div className="fila">
-          <Boton>4</Boton>
-          <Boton>5</Boton>
-          <Boton>6</Boton>
-          <Boton>-</Boton>
+          <Boton manejarClic={actualizarInput}>7</Boton>
+          <Boton manejarClic={actualizarInput}>8</Boton>
+          <Boton manejarClic={actualizarInput}>9</Boton>
+          <Boton manejarClic={actualizarInput}>*</Boton>
         </div>
         <div className="fila">
-          <Boton>7</Boton>
-          <Boton>8</Boton>
-          <Boton>9</Boton>
-          <Boton>*</Boton>
+          <Boton manejarClic={actualizarInput}>=</Boton>
+          <Boton manejarClic={actualizarInput}>0</Boton>
+          <Boton manejarClic={actualizarInput}>.</Boton>
+          <Boton manejarClic={actualizarInput}>/</Boton>
         </div>
         <div className="fila">
-          <Boton>=</Boton>
-          <Boton>0</Boton>
-          <Boton>.</Boton>
-          <Boton>/</Boton>
-        </div>
-        <div className="fila">
-          <Boton>Clear</Boton>
+        <BotonClear manejarClic={reiniciarInput}>Clear</BotonClear>
         </div>
       </div>
     </div>
