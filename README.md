@@ -1,4 +1,4 @@
-# React - Proyectos realizados en el curso de FreeCodeCamp
+# React - 4 Proyectos realizados en el curso de FreeCodeCamp
 ### Cada proyecto realizado tiene algunas características incluidas por mí.
 #### Cuatro proyectos de aplicaciones web interactivas con React. 
 
