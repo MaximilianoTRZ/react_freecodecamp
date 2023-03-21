@@ -1,9 +1,9 @@
-.boton-clear{
+.boton-calculate{
   height: 80px;
   font-size: 1.6em;
   display: flex;
   flex: 1;
-  background-color: #ac0246;
+  background-color: #dc3377;
   margin-top: 8px;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,6 @@
   border-radius: 45px;
 }
 
-.boton-clear:hover{
-  background-color: #f714a4;
+.boton-calculate:hover{
+  background-color: #2fb225;
 }
