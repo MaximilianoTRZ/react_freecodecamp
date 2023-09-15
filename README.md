@@ -5,10 +5,10 @@
 
 ⭐️ Contenido ⭐️
 
-🔹 Proyecto 1: Clon de Testimonios de freeCodeCamp --> https://testimonies-maximilianotrzdevs.netlify.app/
+🔹 Proyecto 1: Clon de Testimonios de freeCodeCamp 
 
-🔹 Proyecto 2: Contador de Clicks --> https://clicks-counter-maximilianotrzdevs.netlify.app/
+🔹 Proyecto 2: Contador de Clicks 
 
-🔹 Proyecto 3: Calculadora Interactiva --> https://calculator-react-maximilianotrzdevs.netlify.app/
+🔹 Proyecto 3: Calculadora Interactiva 
 
-🔹 Revisión de Componentes de Clase (Para mantenimiento de código Legacy)
+🔹 Revisión de Componentes de Clase 
